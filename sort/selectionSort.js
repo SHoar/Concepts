@@ -13,7 +13,7 @@ function selectionSort(inputArray){
     for (var findMinIndex = currentIndex+1; findMinIndex <= n; findMinIndex++){ 
     // findMinIndex will always go to the next index, until there are none left
       if(inputArray[findMinIndex] < inputArray[smallestIndex]){ 
-      // if the current element of the inputArray is smaller than the previously set smallestIndes
+      // if the current element of the inputArray is smaller than the previously set smallestIndex,
         smallestIndex = findMinIndex;  // update smallestIndex to have findMinIndex's index value
       }
     }
